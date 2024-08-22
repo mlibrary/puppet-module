@@ -1,5 +1,17 @@
 # forge_module_name
 
+To get started:
+
+1.  Run `git grep forge_module_name` and sub in the new module name.
+2.  Settings > Code security and analysis > Dependabot security updates > Enable
+3.  You'll need to set the `FORGE_API_KEY` secret to a token generated on the forge website.
+4.  Tests and linting will run on pushes to production and pull requests.
+5.  To release, update version in `metadata.json`, update `CHANGELOG.md`
+    with a link to the future tag and current date in the heading, push to
+    `production`, and Actions > Release to Puppet Forge > Run workflow.
+    It'll generate GitHub release notes from the changelog and update
+    the forge.
+
 Welcome to your new module. A short overview of the generated parts can be found
 in the [PDK documentation][1].
 
