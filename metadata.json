@@ -1,10 +1,10 @@
 {
-  "name": "mlibrary-$FORGE_MODULE_NAME",
+  "name": "mlibrary-forge_module_name",
   "version": "0.1.0",
   "author": "Regents of the University of Michigan",
   "summary": "",
   "license": "BSD-3-Clause",
-  "source": "https://github.com/mlibrary/puppet-$FORGE_MODULE_NAME",
+  "source": "https://github.com/mlibrary/puppet-forge_module_name",
   "dependencies": [
 
   ],
